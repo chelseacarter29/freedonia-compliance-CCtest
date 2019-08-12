@@ -9,7 +9,7 @@ components:
   - ./components/Service 2
   - ./components/Service 3
 standards:
-  - ./standards/FRIST-800-53.yaml
+  - ./standards/NIST-SP-800-53-rev4.yaml
 certifications:
   - ./certifications/FredRAMP-low.yaml
  # - ./certifications/dhs-4300a.yaml
