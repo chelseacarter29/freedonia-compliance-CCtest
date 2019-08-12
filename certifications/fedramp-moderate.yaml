@@ -4,7 +4,7 @@
 # https://www.fedramp.gov/resources/documents-2016/
 name: FedRAMP Moderate
 standards:
-  NIST--SP-800-53-rev4:
+  NIST-SP-800-53-rev4:
     AC-1: {}
     AC-2: {}
     AC-2 (1): {}
