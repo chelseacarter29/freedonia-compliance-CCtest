@@ -1,9 +1,9 @@
 documentation_complete: false
-name: AWS Core
+name: Service 2
 schema_version: 3.0.0
 satisfies:
 - control_key: PE-2
-  standard_key: FRIST-800-53
+  standard_key: NIST-SP-800-53-rev4
   covered_by: []
   control_origin: inherited
   implementation_status: complete
