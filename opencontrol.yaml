@@ -3,7 +3,7 @@ name: freedonia.fd
 metadata:
   description: Simple example of OpenControl Compliance-as-Code
   maintainers:
-    - greg.elin@govready.com
+    - chelsea.carter@ibm.com
 components:
   - ./components/Service 1
   - ./components/Service 2
@@ -12,14 +12,14 @@ standards:
   - ./standards/FRIST-800-53.yaml
 certifications:
   - ./certifications/FredRAMP-low.yaml
-  - ./certifications/dhs-4300a.yaml
-  - ./certifications/icd-503-low.yaml
-  - ./certifications/icd-503-moderate.yaml
-  - ./certifications/icd-503-high.yaml
-  - ./certifications/fedramp-tailored.yaml
-  - ./certifications/fedramp-low.yaml
+ # - ./certifications/dhs-4300a.yaml
+ # - ./certifications/icd-503-low.yaml
+ # - ./certifications/icd-503-moderate.yaml
+ # - ./certifications/icd-503-high.yaml
+ # - ./certifications/fedramp-tailored.yaml
+ # - ./certifications/fedramp-low.yaml
   - ./certifications/fedramp-moderate.yaml
-  - ./certifications/fedramp-high.yaml
-  - ./certifications/fisma-low-impact.yaml
-  - ./certifications/fisma-mod-impact.yaml
-  - ./certifications/fisma-high-impact.yaml
+ # - ./certifications/fedramp-high.yaml
+ # - ./certifications/fisma-low-impact.yaml
+ # - ./certifications/fisma-mod-impact.yaml
+ # - ./certifications/fisma-high-impact.yaml
