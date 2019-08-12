@@ -11,16 +11,13 @@ satisfies:
   implementation_status: implemented
   narrative:
   - text: |
-Enforce authentication and access control on all public interfaces and between service components. Avoid implementing custom solutions. Use IAM for service-level authentication and access control. Segregate access into multiple roles or utilise Cloud Service specific access tokens appropriate for the service to enable least-privilege operation. For stateful applications use well established session management patterns and proven libraries. Secure all internal service-level connections, preferably using certificate-based mutual authentication.
-
-Validate external and internal authentication and access controls with positive and negative test suites.
-
-Don't directly store or manage authentication credentials or role assignments in a service unless the service's primary role is to provide these capabilities. Storing internal singleton credentials to access service resources is acceptable as long as they are correctly managed (see Secrets management).
-
+    Enforce authentication and access control on all public interfaces and between service components. Avoid implementing custom solutions. Use IAM for service-level authentication and access control. Segregate access into multiple roles or utilise Cloud Service specific access tokens appropriate for the service to enable least-privilege operation. For stateful applications use well established session management patterns and proven libraries. Secure all internal service-level connections, preferably using certificate-based mutual authentication.
+    Validate external and internal authentication and access controls with positive and negative test suites.
+    Don't directly store or manage authentication credentials or role assignments in a service unless the service's primary role is to provide these capabilities. Storing internal singleton credentials to access service resources is acceptable as long as they are correctly managed (see Secrets management).
 - control_key: AC-2
   standard_key: FRIST-800-53
   covered_by: []
   implementation_status: none
   narrative:
   - text: |
-AccessHub via Self Boarding for GHE and IBM Cloud Accounts and IAM Access Groups
+    AccessHub via Self Boarding for GHE and IBM Cloud Accounts and IAM Access Groups
